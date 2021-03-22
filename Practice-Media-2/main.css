@@ -1,0 +1,120 @@
+.qutu {
+  width: 100%;
+  height: 200vh;
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media (max-width: 750px) {
+  .qutu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0%;
+    margin: 0%;
+  }
+}
+
+.qutu .box {
+  width: 500px;
+  height: 600px;
+}
+
+@media (max-width: 750px) {
+  .qutu .box {
+    width: 100%;
+  }
+}
+
+.qutu .box h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.qutu .box img {
+  width: 500px;
+  height: 400px;
+}
+
+@media (max-width: 1700px) {
+  .qutu .box img {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .qutu .box img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .qutu .box img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .qutu .box img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 950px) {
+  .qutu .box img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 780px) {
+  .qutu .box img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 750px) {
+  .qutu .box img {
+    width: 100%;
+  }
+}
+
+.qutu .box button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30%;
+  margin-top: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: inset 0 0 0 0 black;
+          box-shadow: inset 0 0 0 0 black;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+.qutu .box .bb:hover {
+  -webkit-box-shadow: inset 200px 0 0 0 black;
+          box-shadow: inset 200px 0 0 0 black;
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */
